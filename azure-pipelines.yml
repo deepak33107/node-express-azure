@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.08'
+  vmImage: 'Ubuntu-20.04.2.0'
 
 steps:
 - task: NodeTool@0
