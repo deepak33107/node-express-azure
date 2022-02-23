@@ -2,7 +2,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
+
 
 steps:
 - task: NodeTool@0
@@ -10,7 +11,7 @@ steps:
     versionSpec: '6.x'
     checkLatest: true
   displayName: 'Install Node.js'
-  
+
 # - task: NodeTool@0
 #   inputs:
 #     versionSpec: '6.x'
